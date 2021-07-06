@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		486167382694C46B00EA15CB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486167372694C46B00EA15CB /* ExploreView.swift */; };
 		E01FF84426809CAE000F0851 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FF84326809CAE000F0851 /* HomeView.swift */; };
 		E01FF84926809D71000F0851 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FF84826809D71000F0851 /* MapView.swift */; };
 		E01FF84C2680B215000F0851 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FF84B2680B215000F0851 /* DiscoverView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		486167372694C46B00EA15CB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		E01FF84326809CAE000F0851 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E01FF84826809D71000F0851 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E01FF84B2680B215000F0851 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		486167362694C2C500EA15CB /* ExploreView */ = {
+			isa = PBXGroup;
+			children = (
+				486167372694C46B00EA15CB /* ExploreView.swift */,
+			);
+			path = ExploreView;
+			sourceTree = "<group>";
+		};
 		E01FF84226809C9B000F0851 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +246,7 @@
 				E01FF84226809C9B000F0851 /* HomeView */,
 				E01FF84626809D2D000F0851 /* DiscoverView */,
 				E01FF84726809D67000F0851 /* MapView */,
+				486167362694C2C500EA15CB /* ExploreView */,
 				E01FF84F2680BAD4000F0851 /* ProfileView */,
 			);
 			path = View;
@@ -404,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01FF8542680DB49000F0851 /* User.swift in Sources */,
+				486167382694C46B00EA15CB /* ExploreView.swift in Sources */,
 				E01FF8512680BAFC000F0851 /* ProfileView.swift in Sources */,
 				E01FF85826811FAA000F0851 /* LocationManager.swift in Sources */,
 				E06E2568267FF00D00AA8138 /* FeedView.swift in Sources */,
@@ -559,9 +571,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CloseBuy/CloseBuy.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"CloseBuy/Preview Content\"";
-				DEVELOPMENT_TEAM = 2775XVJ3MG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloseBuy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -571,6 +583,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.connorlynch.CloseBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -582,9 +595,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CloseBuy/CloseBuy.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"CloseBuy/Preview Content\"";
-				DEVELOPMENT_TEAM = 2775XVJ3MG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CloseBuy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -594,6 +607,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.connorlynch.CloseBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
